@@ -1,0 +1,160 @@
+
+.search-container-netflix {
+  padding: 20px 40px;
+  color: #fff;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+.netflix-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+.search-box-netflix {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box-netflix input {
+  flex: 1;
+  padding: 12px;
+  background-color: #222;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.search-box-netflix button {
+  padding: 12px 20px;
+  background-color: #cc0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 600;
+}
+
+.search-box-netflix button:hover {
+  background-color: #ff0000;
+}
+
+.filters-netflix {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.filters-netflix select,
+.filters-netflix input {
+  padding: 10px;
+  background-color: #1c1c1c;
+  color: #eee;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.netflix-section {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.grid-netflix {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 18px;
+  padding-bottom: 40px;
+}
+
+.grid-card {
+  background-color: #181818;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s;
+}
+
+.grid-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+  border-color: #666;
+}
+
+.grid-img-wrapper {
+  position: relative;
+}
+
+.grid-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  background-color: #222;
+}
+
+.grid-badge-type {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 3px 6px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.grid-badge-year {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  padding: 3px 6px;
+  font-size: 0.7rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.grid-info {
+  padding: 8px 9px 10px;
+}
+
+.grid-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #f5f5f5;
+  min-height: 40px;
+}
+
+.grid-rating-line {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: #bbb;
+}
+
+.grid-rating-line svg {
+  width: 14px;
+  height: 14px;
+}
+
+.grid-rating-number {
+  font-weight: 600;
+  color: #ffd700;
+}
+
+.grid-rating-count {
+  opacity: 0.8;
+}
+
+.search-container-netflix .carousel-row {
+  margin-bottom: 30px;
+}

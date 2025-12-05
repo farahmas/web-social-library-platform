@@ -1,0 +1,72 @@
+.activity-card {
+  display: flex;
+  gap: 15px;
+  background-color: #1a1a1a;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.activity-card:hover {
+  transform: scale(1.02);
+}
+
+.activity-thumb {
+  width: 90px;
+  height: 130px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.activity-info {
+  flex: 1;
+  color: #eee;
+}
+
+.activity-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.activity-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.activity-username {
+  font-weight: 600;
+  color: #fff;
+}
+
+.activity-action {
+  margin: 5px 0;
+  color: #bbb;
+}
+
+.activity-title {
+  font-size: 1.05rem;
+  margin: 5px 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.activity-rating {
+  margin-bottom: 5px;
+  color: #ffcc00;
+}
+
+.activity-review {
+  color: #ccc;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.activity-time {
+  color: #777;
+  font-size: 0.85rem;
+}
